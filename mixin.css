@@ -1,0 +1,34 @@
+.backtothefuture1 {
+  display: block;
+  margin: 0 auto;
+  border: 2px solid red;
+  border-radius: 15px;
+  padding: 5px; }
+
+.intro h1 {
+  color: red;
+  font-size: 60px;
+  font-style: arabian;
+  margin: 40px;
+  text-align: center; }
+.intro .part1 {
+  color: blue;
+  font-size: 25px;
+  font-style: auto;
+  margin: 25px;
+  text-align: justify; }
+.intro .intro2 {
+  color: #456;
+  font-size: 25px;
+  font-style: auto;
+  margin: 25px;
+  text-align: justify; }
+
+.footer {
+  color: darkred;
+  font-size: 25px;
+  font-style: auto;
+  margin: 25px;
+  text-align: justify; }
+
+/*# sourceMappingURL=mixin.css.map */

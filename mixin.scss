@@ -1,0 +1,33 @@
+@mixin generalStyles ($color, $fontSize, $fontStyle, $margin, $textAlign) {
+      color: $color;
+      font-size: $fontSize;
+      font-style: $fontStyle;
+      margin: $margin;
+      text-align: $textAlign;
+}
+@mixin images {
+    display: block;
+    margin: 0 auto;
+    border: 2px solid red;
+    border-radius: 15px;
+    padding: 5px;
+
+}
+.backtothefuture1 {
+        @include images;
+      }
+.intro {
+
+      h1  {
+        @include generalStyles(red, 60px, arabian, 40px, center);
+      }
+      .part1 {
+        @include generalStyles(blue, 25px, auto, 25px, justify);
+      }
+      .intro2 {
+          @include generalStyles(#456, 25px, auto, 25px, justify);
+      }
+}
+.footer {
+      @include generalStyles(darkred, 25px, auto, 25px, justify);
+}
